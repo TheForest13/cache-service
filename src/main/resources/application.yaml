@@ -9,4 +9,4 @@ spring:
       config: classpath:ehcache.xml
 
 server:
-  port: 9229
+  port: ${PORT:9229}
