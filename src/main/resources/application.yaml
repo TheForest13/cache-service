@@ -1,0 +1,12 @@
+logging:
+  level:
+    com:
+      theforest:
+        cacheservice: debug
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+
+server:
+  port: 9229
